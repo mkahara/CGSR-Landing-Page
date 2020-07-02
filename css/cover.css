@@ -1,0 +1,193 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  /* background-color: #333; */
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  background-image: url(../img/theme/landing-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section {
+  background-color: #0b67b2;
+  padding-bottom: 0rem;
+  opacity: 0.9;
+  position: relative;
+  width: 100%;
+}
+
+.cover-container {
+  max-width: 60em;
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: 5px 25px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255);
+}
+
+.mastfoot p {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.footer-bold {
+  font-weight: bold;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.masthead-brand img {
+  height: 55px;
+}
+
+.cover-heading {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 25px 0;
+}
+
+.lead {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/*New styles*/
+
+.bg-image{
+  background-image: url("../../assets/img/theme/landing-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-section-1{
+  background-color: #0b67b2;
+  /* min-height: 380px; */
+  padding-bottom: 0rem;
+  opacity: 0.9;
+}
+.lead.report-title{
+  font-weight: bold;
+  font-size: 25px;
+}
+.report-info {
+  color: #ffffff;
+}
+.btn {
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-right: 20px !important;
+}
+.btn-outline-neutral {
+  color: #0b67b2;
+  background-color: white;
+}
+.align-items-center {
+  padding-bottom: 20px;
+}
+.landing-logo-holder {
+  background: #fff;
+  width: 150px;
+  margin-left: -15px;
+  padding: 10px 0;
+}
+.landing-logo {
+    height: 50px;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
